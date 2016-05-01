@@ -98,6 +98,21 @@ hr {
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
+.card-view {
+  clear: both;
+}
+
+.card-view .title {
+  display: block;
+  width: 30%;
+  float: left;
+}
+
+.card-view .value {
+  display: block;
+  width: 70%;
+  float: right;
+}
 pre {
   overflow: auto;
 }
@@ -1085,8 +1100,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
 }
 input,
 button,
